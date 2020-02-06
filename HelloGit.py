@@ -5,7 +5,7 @@ print(d+c)
 
 myList = [1,2,3]
 #how to stride
-print(mylist[0:6:2])  #from index 0 to 6 skip by 2
+print(myList[0:6:2])  #from index 0 to 6 skip by 2
 
 #strings=lists
 
@@ -16,22 +16,22 @@ phrase[-1:0-3]# strides work backwards -1 is right, 0 is l$
 
 
 
-print(mylist[1])
+print(myList[1])
 
 def sumFunction(a,b):
 	return a+b
 print(sumFunction(2,20))
 #how to call a function 
-print(sumfunction(2,20))
+print(sumFunction(2,20)):
 
-x=10
-y=-10
+        x=10
+        y=-10
 
-if(x==10):
+        if(x==10):
 	x=5
-elif(y==-10):
+        elif(y==-10):
 	y=5
-else:
+        else:
 	x=y-x
 
 #loops
@@ -39,7 +39,11 @@ mylist= [1, 3, 8, 412, 43, 2, 20]
 
 #length of list
 len(mylist)
-
+# while
+x=0
+while(x<5):
+        x+=1
+        print("x = "+ str(x))
 #for loop index
 for i in range (len(mylist)):
 	print(mylist[i])
@@ -54,3 +58,5 @@ lookup ['kc']= 'chiefs'
 lookup['ne']= 'patriots'
 lookup['la']= 'chargers'
 lookup['suck']= 'raiders'
+
+
